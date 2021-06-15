@@ -17,8 +17,9 @@ Copy the files under `tensorflow_privacy/privacy/optimizers` to the same path in
 
 ## Compression experiments
 
-`python code/adult_compress.py` , for adult compress results.
-`python code/adult.py`, for adult baseline . 
+`python code/adult_compress.py`  for adult compress results.
+
+`python code/adult.py` for adult baseline . 
 
 Same goes for mnist and cifar.
 
