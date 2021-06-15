@@ -4,22 +4,23 @@ This repository is an implementation of adaptive clip and gradient compression i
 # Usage
 
 ## Setting up TensorFlow Privacy
-install TensorFlow Privacy repository into a directory of your choice:
+Install TensorFlow Privacy repository into a directory of your choice:
 
 ```
 git clone https://github.com/tensorflow/privacy
 cd privacy
 pip install -e .
 ```
-## add optimizers
+## Add optimizers
 
-copy the files under `tensorflow_privacy/privacy/optimizers` to the same path in previously installed TensorFlow Privacy directory.
+Copy the files under `tensorflow_privacy/privacy/optimizers` to the same path in previously installed TensorFlow Privacy directory.
 
-## compression experiments
+## Compression experiments
 
 `python code/adult_compress.py` , for adult compress results.
 `python code/adult.py`, for adult baseline . 
-some goes for mnist and cifar.
 
-## adaclip experiment
+Same goes for mnist and cifar.
+
+## Adaclip experiment
 `python code/cifar_keras_adaclip.py`
